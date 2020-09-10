@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+   
+</head>
+<body>
+    <div id="console"></div>
+        <video autoplay
+        playsinline
+        muted
+        id="webcam"
+        width="224"
+        height="224"
+        
+        ></video>
+     
+        <button id="class-a">Add a</button>
+        <button id="class-b">Add b</button>
+        <button id="class-c">Add c</button>
+
+        <button id="save_button" >save</button>
+        <input id="load_button" type="file" accept='.json'>
+   <script src="index.js"></script>
+    
+</body>
+</html>
